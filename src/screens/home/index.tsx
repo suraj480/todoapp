@@ -1,6 +1,7 @@
 import { useNavigation } from '@react-navigation/native'
 import React from 'react'
-import { StyleSheet, View, Text, Pressable } from 'react-native'
+import { StyleSheet, View, Pressable } from 'react-native'
+import { Text } from "../../utils/themes"
 
 const Home = () => {
 
@@ -8,7 +9,7 @@ const Home = () => {
 
     return (
         <View>
-            <Text>
+            <Text variant='text2Xl' color="red500" >
                 Home
             </Text>
             <Pressable
@@ -16,11 +17,14 @@ const Home = () => {
                     navigation.navigate("CreateTask")
                 }}
             >
-                <Text>Navigate to create task</Text>
+                <Text variant='textXl' color='pink500' >Navigate to create task</Text>
             </Pressable>
         </View>
     )
 }
 
 export default Home;
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+
+
+})

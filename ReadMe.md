@@ -4,4 +4,4 @@
 3. yarn add babel-plugin-module-resolver
 4. yarn add @react-navigation/native @react-navigation/native-stack
 5. yard add react-native-safe-area-context react-native-screens
-
+6. yarn add @shopify@restyle

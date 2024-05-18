@@ -9,8 +9,6 @@ const Navigation = () => {
         <Stack.Navigator>
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="CreateTask" component={CreateTask} />
-
-
         </Stack.Navigator>
     )
 }
