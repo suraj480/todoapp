@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import Button from '@/components/button';
 import { NavigationContainer } from '@react-navigation/native';
 import { ThemeProvider } from '@shopify/restyle';
-import Navigation from './src/navigation';
-import theme from './src/utils/themes';
+import Navigation from '@/navigation';
+import theme from '@/utils/themes';
 
 export default function App() {
   return (

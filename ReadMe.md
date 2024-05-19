@@ -5,3 +5,7 @@
 4. yarn add @react-navigation/native @react-navigation/native-stack
 5. yard add react-native-safe-area-context react-native-screens
 6. yarn add @shopify@restyle
+7. yarn add zustand @react-native-async-storage/async-storage
+8.  npm i @expo/vector-icons
+9. npm i @gorhom/bottom-sheet
+10. npm i @react-native-picker/picker
